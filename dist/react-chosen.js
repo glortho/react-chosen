@@ -17,7 +17,6 @@
 
     componentDidMount: function() {
       var props = this.props;
-      console.log(props.placeholderTextSingle);
       var select = $(this.refs.select.getDOMNode());
       $(select)
         .chosen({
@@ -47,7 +46,7 @@
     render: function() {
       return (
         React.createElement("div", null, 
-          React.createElement("select", React.__spread({dataPlaceholder: this.props.placeholderTextSingle},  this.props, {ref: "select"}), 
+          React.createElement("select", React.__spread({},  this.props, {ref: "select"}), 
              this.props.children
           )
         )

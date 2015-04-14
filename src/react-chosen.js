@@ -17,7 +17,6 @@
 
     componentDidMount: function() {
       var props = this.props;
-      console.log(props.placeholderTextSingle);
       var select = $(this.refs.select.getDOMNode());
       $(select)
         .chosen({
@@ -47,7 +46,7 @@
     render: function() {
       return (
         <div>
-          <select dataPlaceholder={this.props.placeholderTextSingle} {...this.props} ref='select'>
+          <select {...this.props} ref='select'>
             { this.props.children }
           </select>
         </div>
