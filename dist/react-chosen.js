@@ -47,7 +47,7 @@
     render: function() {
       return (
         React.createElement("div", null, 
-          React.createElement("select", React.__spread({'data-placeholder': this.props.placeholderTextSingle},  this.props, {ref: "select"}), 
+          React.createElement("select", React.__spread({dataPlaceholder: this.props.placeholderTextSingle},  this.props, {ref: "select"}), 
              this.props.children
           )
         )

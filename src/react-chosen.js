@@ -47,7 +47,7 @@
     render: function() {
       return (
         <div>
-          <select data-placeholder={this.props.placeholderTextSingle} {...this.props} ref='select'>
+          <select dataPlaceholder={this.props.placeholderTextSingle} {...this.props} ref='select'>
             { this.props.children }
           </select>
         </div>
