@@ -2,7 +2,7 @@
   "name": "react-chosen",
   "version": "0.3.6",
   "description": "React wrapper for Chosen jQuery.",
-  "main": "react-chosen.js",
+  "main": "dist/react-chosen.js",
   "ignore": [
     "test",
     "bower_components"
