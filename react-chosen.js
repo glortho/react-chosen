@@ -1,5 +1,6 @@
 (function(window, React, $) {
   var Chosen = React.createClass({
+
     displayName: 'Chosen',
 
     componentDidUpdate: function() {
